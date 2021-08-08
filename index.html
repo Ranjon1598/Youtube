@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="sass/min.css">
+</head>
+
+<body onload="preLoder()">
+
+
+  <div class="box" id="preloder">
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+    <div class="shimmer">
+      <div class="wrapper">
+        <div class="image-card animate"></div>
+        <div class="stroke animate description"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <header>
+    <div class="top_manu">
+      <div class="manu_box">
+        <div class="manu_btn" id="manu_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="manu_box">
+        <div class="search">
+          <form>
+            <input type="text" class="search">
+            <button type="submit" class="sub_btn" name="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+        <i class="fas fa-microphone microphone "></i>
+      </div>
+
+      <div class="manu_box">
+        <ul>
+          <li><a href="#"><i class="fas fa-video"></i></a></li>
+          <li id="dropdown_btn">
+            <a href="#">
+              <i class="fas fa-th"></i>
+            </a>
+            <nav id="dropdown_item">
+              <ul>
+                <li>
+                  <a class='navLink' href="#">
+                    <div class="icon">
+                      <i class="fab fa-youtube icon"></i>
+                    </div>
+                    <div class="lk_name">
+                      Yout TV
+                    </div>
+                  </a>
+                </li>
+                <hr>
+                <li>
+                  <a class='navLink' href="#">
+                    <div class="icon">
+                      <i class="fab fa-youtube icon"></i>
+                    </div>
+                    <div class="lk_name">
+                      YouTube Music
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class='navLink' href="#">
+                    <div class="icon">
+                      <i class="fab fa-youtube icon"></i>
+                    </div>
+                    <div class="lk_name">
+                      YouTube Kids
+                    </div>
+                  </a>
+                </li>
+                <hr>
+                <li>
+                  <a class='navLink' href="#">
+                    <div class="icon">
+                      <i class="fab fa-youtube icon"></i>
+                    </div>
+                    <div class="lk_name">
+                      Creator Academy
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class='navLink' href="#">
+                    <div class="icon">
+                      <i class="fab fa-youtube icon"></i>
+                    </div>
+                    <div class="lk_name">
+                      YouTube for Artists
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-bell"></i>
+              <div id="notifaction"> <span>9+</span></div>
+            </a>
+          </li>
+          <li><a href="#"><i class="fas fa-user"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav_sidebar">
+    <nav id="nav">
+      <ul>
+        <li>
+          <a class='navLink active' href="#">
+            <div class="icon">
+              <i class="fas fa-home icon"></i>
+              <span id="span">home</span>
+            </div>
+            <div class="lk_name">
+              Home
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-compass icon "></i>
+              <span id="span">Explore</span>
+            </div>
+            <div class="lk_name">
+              Explore
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fab fa-youtube icon"></i>
+              <span id="span">Subscript</span>
+            </div>
+            <div class="lk_name">
+              Subscriptions
+            </div>
+          </a>
+        </li>
+        <hr>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-copy icon"></i>
+              <span id="span">Library</span>
+            </div>
+            <div class="lk_name">
+              Library
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-history icon"></i>
+            </div>
+            <div class="lk_name">
+              History
+            </div>
+          </a>
+        </li>
+        <li><a class='navLink' href="#">
+            <div class="icon">
+              <i class="far fa-play-circle icon"></i>
+            </div>
+            <div class="lk_name">
+              Your videos
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-clock icon"></i>
+            </div>
+            <div class="lk_name">
+              Watch later
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-thumbs-up icon"></i>
+            </div>
+            <div class="lk_name">
+              Liked videos
+            </div>
+          </a>
+        </li>
+        <!-- save videos -->
+        <div id="show_save">
+          <li>
+            <a class='navLink' href="#">
+              <div class="icon">
+                <i class="fas fa-tasks icon"></i>
+              </div>
+              <div class="lk_name">
+                Django
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class='navLink' href="#">
+              <div class="icon">
+                <i class="fas fa-tasks icon"></i>
+              </div>
+              <div class="lk_name">
+                node.js
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class='navLink' href="#">
+              <div class="icon">
+                <i class="fas fa-tasks icon"></i>
+              </div>
+              <div class="lk_name">
+                php
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class='navLink' href="#">
+              <div class="icon">
+                <i class="fas fa-tasks icon"></i>
+              </div>
+              <div class="lk_name">
+                JAVASCRIPT
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class='navLink' href="#">
+              <div class="icon">
+                <i class="fas fa-tasks icon"></i>
+              </div>
+              <div class="lk_name">
+                Python
+              </div>
+            </a>
+          </li>
+        </div>
+        <li id="show_more_save">
+          <a href="#">
+            <div class="icon">
+              <i class="fas fa-chevron-down icon" id="show_icon_save"></i>
+            </div>
+            <div class="lk_name">
+              <div id="show_more_sv">Show more</div>
+              <div id="show_less_sv"> Show less</div>
+            </div>
+          </a>
+        </li>
+        <hr>
+        <!-- SUBSCRIPTIONS -->
+        <li>
+          <p>SUBSCRIPTIONS</p>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (1).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>Pentanik IT Solution</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (2).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>Dadar i School</pre>
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (3).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>Learn with Cyber 71</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (4).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>ENGLISH- FINGLISH</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (5).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>Easy Tutorials</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (6).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>Coder's Gyan</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (7).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre> Tech Rifle</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (8).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre> Rabbil Hasan</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (9).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre> Programming Hero</pre>
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <img class="icon" src="img/download (10).jpg" alt="">
+            </div>
+            <div class="lk_name">
+              <pre>Jhankar Mahbub</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_sub">
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-plus-circle icon"></i>
+            </div>
+            <div class="lk_name">
+              <pre>Browse channels</pre>
+
+            </div>
+          </a>
+        </li>
+        <li id="show_more_btn">
+          <a href="#">
+            <div class="icon">
+              <i class="fas fa-chevron-down icon" id="show_more_sub_icon"></i>
+            </div>
+            <div class="lk_name">
+              <span id="show_more_su"> </span>
+              <span id="show_less_su"> Show less</span>
+            </div>
+          </a>
+        </li>
+
+        <!-- more_form_youtube -->
+        <li>
+          <p>MORE FROM YOUTUBE</p>
+        </li>
+
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-gamepad icon"></i>
+            </div>
+            <div class="lk_name">
+              Gaming
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-wifi icon"></i>
+            </div>
+            <div class="lk_name">
+              Live
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-trophy icon"></i>
+            </div>
+            <div class="lk_name">
+              Sport
+            </div>
+          </a>
+        </li>
+        <hr>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-cog icon"></i>
+            </div>
+            <div class="lk_name">
+              Setting
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-flag icon"></i>
+            </div>
+            <div class="lk_name">
+              Report History
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-question-circle icon"></i>
+            </div>
+            <div class="lk_name">
+              Help
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class='navLink' href="#">
+            <div class="icon">
+              <i class="fas fa-comment-alt icon"></i>
+            </div>
+            <div class="lk_name">
+              Send Feedback
+            </div>
+          </a>
+        </li>
+        <hr>
+        <li>
+          <p style="font-size: 13px;">
+            About Press Copyright Contact us Creators Advertise Developers <br>
+            <br>
+            TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+          </p>
+        </li>
+        <li style="margin: 2vh 2.3vh; font-size: 14px; opacity: .5;">© 2021 Google LLC</li>
+      </ul>
+      <br>
+      <br>
+      <br>
+    </nav>
+  </div>
+
+
+  <div class="videos" id="videos">
+    <div class="video_box">
+       <!-- <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Cxf5sOXG0w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b6FdqRrrMlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_VLmMgMnkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8DTy9Z9_Djk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tx8vlEvykUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Cxf5sOXG0w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b6FdqRrrMlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_VLmMgMnkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8DTy9Z9_Djk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tx8vlEvykUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tx8vlEvykUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Cxf5sOXG0w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b6FdqRrrMlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_VLmMgMnkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tx8vlEvykUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Cxf5sOXG0w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b6FdqRrrMlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_VLmMgMnkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8DTy9Z9_Djk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="video_single_box">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tx8vlEvykUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>  -->
+
+    </div>
+  </div>
+
+
+
+  <script src="js/all.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
